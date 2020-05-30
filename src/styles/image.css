@@ -1,0 +1,19 @@
+.background-container{
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered h1{
+    color: white;
+}
+
+.centered h5{
+    color: white;
+}

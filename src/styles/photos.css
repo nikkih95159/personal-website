@@ -1,0 +1,19 @@
+.photos-container{
+    display: flex;
+}
+
+.photos-image {
+    width: 100%;
+}
+
+.photos-h-description {
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 415px;
+}
+
+.photos-v-description {
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 950px;
+}
