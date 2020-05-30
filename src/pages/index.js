@@ -1,5 +1,5 @@
 import React from "react"
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import Layout from "../components/layout"
 import About from "../components/about"
 import Contact from "../components/contact"
