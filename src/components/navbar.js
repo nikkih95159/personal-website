@@ -2,12 +2,7 @@ import React from "react"
 import {Navbar as NavbarReact} from 'react-bootstrap'
 
 class Navbar extends React.PureComponent {
-
-
-    render() {
-
-        console.log(document.getElementById('root'))
-        
+    render() {        
         return (
             <NavbarReact sticky="top" expand="lg" variant="light" bg="light">
                 {/* <NavbarReact.Brand href="#">Projects</NavbarReact.Brand> */}
