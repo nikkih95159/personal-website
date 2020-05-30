@@ -8,8 +8,8 @@ class Navbar extends React.PureComponent {
                 {/* <NavbarReact.Brand href="#">Projects</NavbarReact.Brand> */}
                 {/* <NavbarReact.Brand href="#">About</NavbarReact.Brand> */}
                 {/* <NavbarReact.Brand href="#">Contact</NavbarReact.Brand> */}
-                <NavbarReact.Brand href="">Home</NavbarReact.Brand>
-                <NavbarReact.Brand href="/photos">Photos</NavbarReact.Brand>
+                <NavbarReact.Brand href="#">Home</NavbarReact.Brand>
+                <NavbarReact.Brand href="#photos">Photos</NavbarReact.Brand>
             </NavbarReact>
         )
     }
