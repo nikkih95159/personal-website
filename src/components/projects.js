@@ -10,6 +10,17 @@ class Projects extends React.Component {
                 <div className="project-container">
                     <div className="project-card">
                         <div className="image-container">
+                            <img src={require('../images/cnn.png')} alt="" style={{marginBottom: `0rem`}}/>
+                        </div>
+                        <div className="description-container">
+                            <h5>Image Classification</h5>
+                            <p>An neural network project for my deep learning class where I train a convolutional neural network on landmark images.</p>
+                            <a href="https://github.com/nikkih95159/COGS181Project">Github</a>
+                            {/* <button type="button" className="btn btn-outline-secondary btn-sm">Demo</button> */}
+                        </div>
+                    </div>
+                    <div className="project-card">
+                        <div className="image-container">
                             <img src={require('../images/gym-pal.png')} alt="" style={{ marginBottom: `0rem`}}/>
                         </div>
                         <div className="description-container">
