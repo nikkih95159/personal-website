@@ -20,10 +20,10 @@ class Navbar extends React.PureComponent {
     return (
       <div className="navbar-container">
         <nav className="navbar" ref="navbar">
-          <a href="../">Home</a>
+          <a href=".">Home</a>
           <Scrollchor to="#projects">Projects</Scrollchor>
           <Scrollchor to="#contact">Contact</Scrollchor>
-          <a href="../photos">Photos</a>
+          <a href="./photos">Photos</a>
         </nav>
       </div>
     );

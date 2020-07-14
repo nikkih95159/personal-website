@@ -20,7 +20,7 @@ export default class Home extends React.Component{
         scrollTopBtn.style.display = "block";
       } else {
         scrollTopBtn.style.display = "none";
-        window.history.replaceState('', '', '/');
+        window.history.replaceState('', '', '.');
       }
     }
   }
@@ -28,7 +28,7 @@ export default class Home extends React.Component{
   // When the user clicks on the button, scroll to the top of the document
   topFunction() {
       window.scrollTo({top: 0, behavior: 'smooth'});
-      window.history.replaceState('', '', '/');
+      window.history.replaceState('', '', '.');
   }
 
   render() {
