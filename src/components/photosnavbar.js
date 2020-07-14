@@ -6,7 +6,7 @@ class PhotosNavbar extends React.PureComponent {
     return (
       <div className="photosnavbar-container">
         <nav className="photosnavbar" ref="navbar">
-          <a href="./">Home</a>
+          <a href="/">Home</a>
         </nav>
       </div>
     );
