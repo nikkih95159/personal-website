@@ -1,18 +1,33 @@
-import React from "react"
-import {Navbar as NavbarReact} from 'react-bootstrap'
+import React from 'react';
+import Scrollchor from 'react-scrollchor';
 
 class Navbar extends React.PureComponent {
-    render() {        
-        return (
-            <NavbarReact sticky="top" expand="lg" variant="light" bg="light">
-                {/* <NavbarReact.Brand href="#">Projects</NavbarReact.Brand> */}
-                {/* <NavbarReact.Brand href="#">About</NavbarReact.Brand> */}
-                {/* <NavbarReact.Brand href="#">Contact</NavbarReact.Brand> */}
-                <NavbarReact.Brand href="https://nikkih95159.github.io/personal-website/">Home</NavbarReact.Brand>
-                <NavbarReact.Brand href="https://nikkih95159.github.io/personal-website/photos">Photos</NavbarReact.Brand>
-            </NavbarReact>
-        )
-    }
+  componentDidMount() {
+    this.refs.navbar.addEventListener('click', e => {
+      if (e.target.innerText === 'Projects') {
+        document
+          .getElementById('projects')
+          .scrollIntoView({ behavior: 'smooth' });
+      } else if (e.target.innerText === 'Contact') {
+        document
+          .getElementById('contact')
+          .scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  }
+
+  render() {
+    return (
+      <div className="navbar-container">
+        <nav className="navbar" ref="navbar">
+          <a href="/">Home</a>
+          <Scrollchor to="#projects">Projects</Scrollchor>
+          <Scrollchor to="#contact">Contact</Scrollchor>
+          <a href="/photos">Photos</a>
+        </nav>
+      </div>
+    );
+  }
 }
 
 export default Navbar;

@@ -1,4 +1,9 @@
-import React from "react"
+import React from 'react';
+// import PropTypes from 'prop-types';
+// import Helmet from 'react-helmet';
+
+import '../scss/index.scss';
+import '../fontawesome';
 
 export default function Layout({ children }) {
     return (
