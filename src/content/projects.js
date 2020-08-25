@@ -37,17 +37,17 @@ export default [
         github: 'https://github.com/nikkih95159/Gym-Pal',
       },
     },
-    {
-      title: 'Video Player',
-      description:
-        'Part of a challenge for an internship at IGN. Contains a stylized video player pulled from the IGN API with more related videos and descriptions.',
-      skills: ['HTML', 'CSS', 'JavaScript'],
-      image: ign,
-      links: {
-        github: 'https://github.com/nikkih95159/IGN',
-        // preview: 'https://nikkih95159.github.io/IGN/',
-      },
-    },
+    // {
+    //   title: 'Video Player',
+    //   description:
+    //     'Part of a challenge for an internship at IGN. Contains a stylized video player pulled from the IGN API with more related videos and descriptions.',
+    //   skills: ['HTML', 'CSS', 'JavaScript'],
+    //   image: ign,
+    //   links: {
+    //     github: 'https://github.com/nikkih95159/IGN',
+    //     // preview: 'https://nikkih95159.github.io/IGN/',
+    //   },
+    // },
     {
       title: 'Spotify Playlist',
       description:
